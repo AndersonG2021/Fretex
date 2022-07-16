@@ -18,11 +18,6 @@ class Cliente(Usuario):
 
 
 
-cliente = Cliente()
-
-cliente.logar()
-cliente.cadastrar()
-cliente.sair()
 
 cursor.close()
 conexao.close()
